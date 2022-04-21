@@ -14,7 +14,6 @@ export const StyledCard = styled(Link)`
  
     &:nth-child(2n+1) {
         background-color : rgba(68, 68, 68, 0.5);
-        border : 1px solid red
     }
 
     &:hover {
