@@ -8,9 +8,14 @@ export const StyledCard = styled(Link)`
     overflow: hidden;    
     transition: all 0.1s;
     margin-top: 2rem; 
-    background-color: ${(props) => (props.index+1) % 2 ? '#444':'rgba(68, 68, 68, 0.5)'};
+    background-color: #444444;
     box-shadow: 0 1px 5px white;
     text-decoration : none;
+ 
+    &:nth-child(2n+1) {
+        background-color : rgba(68, 68, 68, 0.5);
+        border : 1px solid red
+    }
 
     &:hover {
         box-shadow: 0 1px 15px #16A5A5;
@@ -32,3 +37,5 @@ export const StyledCard = styled(Link)`
         width : 100% 
     }
 `
+
+//La opacidad en numeros impares tambien se puede lograr enviando el index como prop al styledComponent y verificando (index+1) % 2
