@@ -1,7 +1,7 @@
 import { ApolloClient , InMemoryCache } from '@apollo/client'
 
 const client = new ApolloClient({
-    uri : '/graphql',
+    uri : 'https://rickandmortyapi.com/graphql',
     cache : new InMemoryCache(),
     cors:{
         origin:'https://rick-and-morty-app-ashy.vercel.app/',
