@@ -10,6 +10,12 @@ export const StyledLink = styled(Link)`
 
     &:hover {
         color : #444
+    } 
+
+    @media only screen and (max-width : 400px) {
+        font-size : 13px;
+        font-weight : 800
     }
-`; 
+`;  
+
 
