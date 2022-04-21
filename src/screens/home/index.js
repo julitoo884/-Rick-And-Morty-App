@@ -26,6 +26,7 @@ function Home({ setlength }) {
   })
 
   if (error) {
+    console.log(error.message)
     return (
       <ErrorPage 
         titlecolor="#F44E3B" 
