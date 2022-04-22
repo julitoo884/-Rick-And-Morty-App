@@ -107,7 +107,7 @@ describe('<Home /> with error' , () => {
             const wait = require('waait');    
             await wait(0)
         })
-        expect(componenterror.getByText('an internet connection could not be established')).toBeInTheDocument() 
+        expect(componenterror.getByText('Could not establish a connection to the server')).toBeInTheDocument() 
     })
 
 })

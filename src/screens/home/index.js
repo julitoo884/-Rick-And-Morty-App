@@ -26,12 +26,11 @@ function Home({ setlength }) {
   })
 
   if (error) {
-    console.log(error.message)
     return (
       <ErrorPage 
         titlecolor="#F44E3B" 
         title='UUPS!'
-        content="an internet connection could not be established"
+        content="Could not establish a connection to the server"
         image={errorimage}
       />
     ) 
