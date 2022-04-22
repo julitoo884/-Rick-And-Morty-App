@@ -7,4 +7,5 @@ export const ContainerVerticalAlign = styled.div`
     align-items : center;
     justify-content : center;
     min-height : calc(100vh - 8rem);
+    padding : 2rem
 `
