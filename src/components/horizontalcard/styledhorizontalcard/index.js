@@ -9,10 +9,7 @@ export const StyledHorizontalCard = styled.div`
     @media only screen and (max-width : 750px) {
         display : block;
         margin-top : 2rem;
-    }
-
-    @media only screen and (max-width : 500px) {
-        width : 100%
+        width : calc(100% - 4rem);
     }
 
 ` 
