@@ -21,7 +21,7 @@ describe('<StyledCard />' , () => {
         expect(true)
         /*
         let card = component.getByTestId('styled-card')
-        let color = (index+1) % 2 ? '#444' : 'rgba(68, 68, 68, 0.5)'
+        let color = index % 2 ? '#444' : 'rgba(68, 68, 68, 0.5)'
         expect(card).toHaveStyle({
             backgroundColor: color
         })
