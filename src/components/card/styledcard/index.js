@@ -12,7 +12,7 @@ export const StyledCard = styled(Link)`
     box-shadow: 0 1px 5px white;
     text-decoration : none;
  
-    &:nth-child(2n+1) {
+    &:nth-child(2n) {
         background-color : rgba(68, 68, 68, 0.5);
     }
 
@@ -37,4 +37,4 @@ export const StyledCard = styled(Link)`
     }
 `
 
-//La opacidad en numeros impares tambien se puede lograr enviando el index como prop al styledComponent y verificando (index+1) % 2
+//La opacidad en numeros impares tambien se puede lograr enviando el index como prop al styledComponent y verificando index % 2
