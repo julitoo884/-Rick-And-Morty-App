@@ -6,9 +6,9 @@ export const ContainetCards = styled.div`
     flex-wrap: wrap;
     padding: 5rem;
     align-items: flex-start;
-    /*
+    
     @media only screen and (max-width : 500px) {
         padding: 2rem;
     }
-    */
+    
 `  
