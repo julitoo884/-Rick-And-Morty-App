@@ -22,18 +22,6 @@ let store = createStore(reducerMaster);
 let persistor = persistStore(store)
 
 const AppWrapper = () => { 
-
-  /*
-  const palindromo = cadena => {
-    let normal = cadena.replace(/ /g, "").toUpperCase() 
-    let reverse = cadena.replace(/ /g, "").toUpperCase().split("").reverse().join("")
-    return normal === reverse
-  }
-
-  useEffect(() => {
-    console.log(palindromo("perfume mio oim emufrep"))
-  })
-  */
   
   const mainRoutes = {
     path: '/',
